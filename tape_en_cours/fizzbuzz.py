@@ -26,6 +26,6 @@ for nombre in range(1, 101):
         resultat += "fizz"
     if nombre % 5 == 0:
         resultat += "buzz"
-    if not resultat:
+    if not resultat:  # len(resultat == 0) # resultat == ""
         resultat = nombre
     print(resultat)
