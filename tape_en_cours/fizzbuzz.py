@@ -28,4 +28,4 @@ for nombre in range(1, 101):
         resultat += "buzz"
     if not resultat:
         resultat = nombre
-    return resultat
+    print(resultat)
