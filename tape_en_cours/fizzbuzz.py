@@ -8,6 +8,7 @@
 #     else:
 #         print(nombre)
 
+
 for nombre in range(1, 101):
     match (nombre % 3, nombre % 5):
         case (0, 0):
