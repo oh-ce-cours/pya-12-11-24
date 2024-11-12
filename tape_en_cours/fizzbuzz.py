@@ -29,3 +29,5 @@ for nombre in range(1, 101):
     if not resultat:  # len(resultat == 0) # resultat == ""
         resultat = nombre
     print(resultat)
+
+a = [2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2]
