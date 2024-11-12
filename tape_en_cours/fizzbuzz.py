@@ -16,5 +16,5 @@ for nombre in range(1, 101):
             print("fizz")
         case (nombre, 0):
             print("buzz")
-        case (nombre, nombre):
+        case (_, _):
             print(nombre)
