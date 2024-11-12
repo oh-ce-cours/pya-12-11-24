@@ -27,7 +27,7 @@ for nombre in range(1, 101):
     if nombre % 5 == 0:
         resultat += "buzz"
     if not resultat:  # len(resultat == 0) # resultat == ""
-        resultat = nombre
+        resultat = str(nombre)
     print(resultat)
 
 a = [
