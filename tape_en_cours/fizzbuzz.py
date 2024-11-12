@@ -1,2 +1,3 @@
 for nombre in range(1, 101):
-    print(nombre)
+    if nombre % 3 == 0:
+        print("fizz")
