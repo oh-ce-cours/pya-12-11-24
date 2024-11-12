@@ -20,5 +20,9 @@
 #         case (_, _):
 #             print(nombre)
 
-
-"fizzbuzz" = "fizz" + "buzz"
+for nombre in range(1, 101):
+    resultat = ""
+    if nombre % 3 == 0:
+        resultat += "fizz"
+    if nombre % 5 == 0:
+        resultat += "buzz"
