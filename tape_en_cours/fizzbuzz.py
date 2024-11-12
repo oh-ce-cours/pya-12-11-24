@@ -5,3 +5,5 @@ for nombre in range(1, 101):
         print("fizz")
     elif nombre % 5 == 0:
         print("buzz")
+    else:
+        print(nombre)
