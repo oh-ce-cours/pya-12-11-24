@@ -9,12 +9,12 @@
 #         print(nombre)
 
 for nombre in range(1, 101):
-    match nombre:
-        case nombre % 3==0 and nombre % 5 == 0: 
+    match (nombre % 3, nombre % 5):
+        case (0, 0):
             print("fizzbuzz")
-        case ... :  
+        case (0, _):
             print("fizz")
-        case ...:
+        case (_, 0):
             print("buzz")
-        case ...:
+        case (_, _):
             print(nombre)
