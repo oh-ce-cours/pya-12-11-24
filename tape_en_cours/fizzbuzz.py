@@ -26,3 +26,6 @@ for nombre in range(1, 101):
         resultat += "fizz"
     if nombre % 5 == 0:
         resultat += "buzz"
+    if not resultat:
+        resultat = nombre
+    return resultat
