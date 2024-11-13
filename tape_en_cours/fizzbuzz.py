@@ -36,13 +36,21 @@ def traitement_fizz_buzz(valeur: int) -> str:
         raise TypeError("on n'accepte que les int ici")
 
     resultat = ""
-    if valeur % 3 == 0:
+    if divisble_par_3(valeur):
         resultat += "fizz"
-    if valeur % 5 == 0:
+    if divisible_par_5(valeur):
         resultat += "buzz"
     if not resultat:
         resultat = str(valeur)
     return resultat
+
+
+def divisible_par_5(valeur):
+    return valeur % 5 == 0
+
+
+def divisble_par_3(valeur):
+    return valeur % 3 == 0
 
 
 def main():
