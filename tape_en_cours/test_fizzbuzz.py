@@ -11,7 +11,7 @@ def test_fizzbuzz_3_est_fizz(capfd):
     resultat = "fizz" in capfd
 
     # assert
-    assert resultat == attendu
+    assert "fizz" in capfd
 
 
 def test_fizzbuzz_99_est_fizz():
