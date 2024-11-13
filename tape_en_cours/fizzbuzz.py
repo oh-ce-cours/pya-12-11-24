@@ -33,7 +33,7 @@
 
 def traitement_fizz_buzz(valeur: int) -> str:
     if not isinstance(valeur, int):
-        return None
+        raise TypeError("on n'accepte que les int ici")
 
     resultat = ""
     if valeur % 3 == 0:
