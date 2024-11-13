@@ -37,7 +37,7 @@ def traitement_fizz_buzz(valeur):
         resultat += "fizz"
     if valeur % 5 == 0:
         resultat += "buzz"
-    if not resultat:  # len(resultat == 0) # resultat == ""
+    if not resultat:
         resultat = str(valeur)
     return resultat
 
