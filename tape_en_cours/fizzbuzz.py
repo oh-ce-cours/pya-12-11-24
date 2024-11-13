@@ -53,7 +53,7 @@ def main():
     #     res = traitement_fizz_buzz(nombre)
     #     print(res)
 
-    print(map(traitement_fizz_buzz, range(1, 101)))
+    print(list(map(traitement_fizz_buzz, range(1, 101))))
 
 
 if __name__ == "__main__":
