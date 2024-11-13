@@ -20,12 +20,13 @@
 #         case (_, _):
 #             print(nombre)
 
-for nombre in range(1, 101):
-    resultat = ""
-    if nombre % 3 == 0:
-        resultat += "fizz"
-    if nombre % 5 == 0:
-        resultat += "buzz"
-    if not resultat:  # len(resultat == 0) # resultat == ""
-        resultat = str(nombre)
-    print(resultat)
+# for nombre in range(1, 101):
+#     resultat = ""
+#     if nombre % 3 == 0:
+#         resultat += "fizz"
+#     if nombre % 5 == 0:
+#         resultat += "buzz"
+#     if not resultat:  # len(resultat == 0) # resultat == ""
+#         resultat = str(nombre)
+#     print(resultat)
+
