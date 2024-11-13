@@ -31,7 +31,7 @@
 #     print(resultat)
 
 
-def traitement_fizz_buzz(valeur: int) -> str:
+def traitement_fizz_buzz(valeur: int) -> None:
     if not isinstance(valeur, int):
         raise TypeError("on n'accepte que les int ici")
 
@@ -42,7 +42,7 @@ def traitement_fizz_buzz(valeur: int) -> str:
         resultat += "buzz"
     if not resultat:
         resultat = str(valeur)
-    return resultat
+    print(resultat)
 
 
 def main():
