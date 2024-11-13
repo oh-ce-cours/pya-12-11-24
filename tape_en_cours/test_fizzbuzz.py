@@ -8,9 +8,10 @@ def test_fizzbuzz_3_est_fizz(capfd):
 
     # act
     traitement_fizz_buzz(nombre_entre)
+    resultat = capfd.readouterr().out
 
     # assert
-    assert "fizz" in capfd.readouterr().out
+    assert "fizz" in resultat
 
 
 def test_fizzbuzz_99_est_fizz():
