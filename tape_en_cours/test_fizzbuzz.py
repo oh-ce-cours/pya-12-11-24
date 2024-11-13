@@ -1,3 +1,3 @@
 import fizzbuzz
 
-print(__name__)
+print("dans test", __name__)
