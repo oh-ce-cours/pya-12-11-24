@@ -37,10 +37,6 @@ def traitement_fizz_buzz(valeur: int) -> str:
 
     resultat = "fizz" * divisble_par_3(valeur) + "buzz" * divisible_par_5(valeur)
 
-    if divisble_par_3(valeur):
-        resultat += "fizz"
-    if divisible_par_5(valeur):
-        resultat += "buzz"
     if not resultat:
         resultat = str(valeur)
     return resultat
