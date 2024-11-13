@@ -30,3 +30,7 @@
 #         resultat = str(nombre)
 #     print(resultat)
 
+
+for nombre in range(1, 101):
+    res = traitement_fizz_buzz()
+    print(res)
