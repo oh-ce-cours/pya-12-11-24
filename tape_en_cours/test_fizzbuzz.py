@@ -1,7 +1,7 @@
 from fizzbuzz import traitement_fizz_buzz
 
 
-def test_multiple_de_trois():
+def test_fizzbuzz_3_est_fizz():
     # arange
     nombre_entre = 3
     attendu = "fizz"
