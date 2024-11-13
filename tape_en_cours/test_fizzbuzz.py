@@ -4,8 +4,6 @@ import pytest
 
 @pytest.mark.parametrize("nombre_entre, attendu", [(3, "fizz"), (99, "fizz")])
 def test_fizzbuzz_3_est_fizz(nombre_entre, attendu):
-    # arange
-
     # act
     resultat = traitement_fizz_buzz(nombre_entre)
 
