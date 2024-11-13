@@ -1,22 +1,21 @@
 from fizzbuzz import traitement_fizz_buzz
 
 
-def test_fizzbuzz_3_est_fizz(capfd):
+def test_fizzbuzz_3_est_fizz():
     # arange
     nombre_entre = 3
     attendu = "fizz"
 
     # act
-    traitement_fizz_buzz(nombre_entre)
-    resultat = capfd.readouterr().out
+    resultat = traitement_fizz_buzz(nombre_entre)
 
     # assert
-    assert "fizz" in resultat
+    assert resultat == attendu
 
 
-def test_fizzbuzz_99_est_fizz():
+def test_fizzbuzz_3_est_fizz():
     # arange
-    nombre_entre = 99
+    nombre_entre = 3
     attendu = "fizz"
 
     # act
