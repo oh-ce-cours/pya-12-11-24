@@ -10,14 +10,12 @@ class Fruit:
         return self.name == other.name
 
 
-@pytest.fixture
 def my_fruit():
     return Fruit("apple")
 
 
-@pytest.fixture
-def fruit_basket(my_fruit):
-    return [Fruit("banana"), my_fruit]
+def fruit_basket():
+    return [Fruit("banana"), my_fruit("apple")]
 
 
 def test_my_fruit_in_basket():
