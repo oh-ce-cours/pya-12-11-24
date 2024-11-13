@@ -31,14 +31,14 @@
 #     print(resultat)
 
 
-def traitement_fizz_buzz(nombre):
+def traitement_fizz_buzz(valeur):
     resultat = ""
-    if nombre % 3 == 0:
+    if valeur % 3 == 0:
         resultat += "fizz"
-    if nombre % 5 == 0:
+    if valeur % 5 == 0:
         resultat += "buzz"
     if not resultat:  # len(resultat == 0) # resultat == ""
-        resultat = str(nombre)
+        resultat = str(valeur)
     return resultat
 
 
