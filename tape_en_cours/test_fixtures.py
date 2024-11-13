@@ -15,7 +15,7 @@ def my_fruit():
 
 
 def fruit_basket():
-    return [Fruit("banana"), my_fruit("apple")]
+    return [Fruit("banana"), my_fruit()]
 
 
 def test_my_fruit_in_basket():
