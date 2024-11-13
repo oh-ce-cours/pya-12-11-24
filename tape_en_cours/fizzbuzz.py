@@ -29,30 +29,3 @@ for nombre in range(1, 101):
     if not resultat:  # len(resultat == 0) # resultat == ""
         resultat = str(nombre)
     print(resultat)
-
-a = [
-    2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 2
-    + 22
-    + 2
-    + 2
-    + 2
-    + 2
-]
