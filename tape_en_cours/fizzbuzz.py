@@ -32,7 +32,7 @@
 
 
 def traitement_fizz_buzz(valeur: int) -> str:
-    if not isinstance(valeur, int):
+    if not type(valeur) == int:
         ...
     resultat = ""
     if valeur % 3 == 0:
