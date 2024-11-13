@@ -42,7 +42,7 @@ def traitement_fizz_buzz(valeur):
     return resultat
 
 
-def main():
+def ca_marche_peut_importe_le_nom():
     for nombre in range(1, 101):
         res = traitement_fizz_buzz(nombre)
         # print(res)
@@ -51,4 +51,4 @@ def main():
 
 print("dans fizzbuzz", __name__)
 if __name__ == "__main__":
-    main()
+    ca_marche_peut_importe_le_nom()
