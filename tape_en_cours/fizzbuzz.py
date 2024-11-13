@@ -44,7 +44,7 @@ def traitement_fizz_buzz(valeur: int) -> str:
 
 def main():
     for nombre in range(1, 101):
-        res = traitement_fizz_buzz(nombre)
+        res = traitement_fizz_buzz("toto")
         print(res)
 
 
