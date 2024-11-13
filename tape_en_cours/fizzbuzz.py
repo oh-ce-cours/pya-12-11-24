@@ -46,7 +46,7 @@ def traitement_fizz_buzz(valeur: int) -> str:
     return resultat
 
 
-def divisible_par_5(valeur):
+def divisible_par_5(valeur: int) -> bool:
     return valeur % 5 == 0
 
 
