@@ -7,7 +7,8 @@ def test_fizzbuzz_3_est_fizz(capfd):
     attendu = "fizz"
 
     # act
-    resultat = traitement_fizz_buzz(nombre_entre)
+    traitement_fizz_buzz(nombre_entre)
+    resultat = "fizz" in capfd
 
     # assert
     assert resultat == attendu
