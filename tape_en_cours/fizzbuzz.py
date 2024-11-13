@@ -46,6 +46,7 @@ def main():
     for nombre in range(1, 101):
         res = traitement_fizz_buzz(nombre)
         # print(res)
+    print("fini")
 
 
 print(__name__)
