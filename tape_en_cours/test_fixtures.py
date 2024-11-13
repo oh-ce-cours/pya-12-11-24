@@ -20,8 +20,5 @@ def fruit_basket(my_fruit):
     return [Fruit("banana"), my_fruit]
 
 
-def test_my_fruit_in_basket():
-    # arange
-    my_fruit = my_fruit()
-    fruit_basket = fruit_basket()
+def test_my_fruit_in_basket(my_fruit, fruit_basket):
     assert my_fruit in fruit_basket
