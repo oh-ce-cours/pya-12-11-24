@@ -50,7 +50,7 @@ def divisible_par_5(valeur: int) -> bool:
     return valeur % 5 == 0
 
 
-def divisble_par_3(valeur):
+def divisble_par_3(valeur: int) -> bool:
     return valeur % 3 == 0
 
 
