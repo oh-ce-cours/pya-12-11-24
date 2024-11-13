@@ -1,4 +1,4 @@
-from fizzbuzz import traitement_fizz_buzz
+from fizzbuzz import *
 
 
 print("dans test", __name__)
