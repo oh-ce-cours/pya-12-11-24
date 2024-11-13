@@ -1,7 +1,7 @@
 from fizzbuzz import traitement_fizz_buzz
-import pytest 
+import pytest
 
-@
+
 def test_fizzbuzz_3_est_fizz():
     # arange
     nombre_entre = 3
@@ -14,9 +14,9 @@ def test_fizzbuzz_3_est_fizz():
     assert resultat == attendu
 
 
-def test_fizzbuzz_3_est_fizz():
+def test_fizzbuzz_99_est_fizz():
     # arange
-    nombre_entre = 3
+    nombre_entre = 99
     attendu = "fizz"
 
     # act
