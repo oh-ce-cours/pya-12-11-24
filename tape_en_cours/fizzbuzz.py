@@ -35,8 +35,9 @@ def traitement_fizz_buzz(valeur: int) -> str:
     if not isinstance(valeur, int):
         raise TypeError("on n'accepte que les int ici")
 
-    resultat = "fizz" * divisble_par_3(valeur) + "buzz" * divisible_par_5(valeur)
-    resultat = resultat or str(valeur)
+    resultat = "fizz" * divisble_par_3(valeur) + "buzz" * divisible_par_5(
+        valeur
+    ) or str(valeur)
     return resultat
 
 
