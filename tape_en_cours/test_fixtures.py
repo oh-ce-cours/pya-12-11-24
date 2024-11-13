@@ -20,6 +20,6 @@ def fruit_basket():
 
 def test_my_fruit_in_basket():
     # arange
-    my_fruit = my_fruit()
-    fruit_basket = fruit_basket()
-    assert my_fruit in fruit_basket
+    fruit = my_fruit()
+    basket = fruit_basket()
+    assert fruit in basket
