@@ -1,7 +1,7 @@
 from fizzbuzz import traitement_fizz_buzz
 
 
-def test_fizzbuzz_3_est_fizz():
+def test_fizzbuzz_3_est_fizz(capfd):
     # arange
     nombre_entre = 3
     attendu = "fizz"
