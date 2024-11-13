@@ -31,7 +31,7 @@
 #     print(resultat)
 
 
-def traitement_fizz_buzz(valeur):
+def traitement_fizz_buzz(valeur: int) -> str:
     resultat = ""
     if valeur % 3 == 0:
         resultat += "fizz"
