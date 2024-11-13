@@ -43,11 +43,12 @@ def traitement_fizz_buzz(valeur):
 
 
 print("dans fizzbuzz", __name__)
-if __name__ == "__main__":
-
     def main():
         for nombre in range(1, 101):
             res = traitement_fizz_buzz(nombre)
             print(res)
+
+if __name__ == "__main__":
+
 
     main()
