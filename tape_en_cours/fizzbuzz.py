@@ -45,8 +45,9 @@ def traitement_fizz_buzz(valeur):
 def main():
     for nombre in range(1, 101):
         res = traitement_fizz_buzz(nombre)
-        print(res)
+        # print(res)
 
 
+print(__name__)
 if __name__ == "__main__":
     main()
