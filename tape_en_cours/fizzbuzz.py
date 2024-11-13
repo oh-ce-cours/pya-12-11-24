@@ -32,6 +32,8 @@
 
 
 def traitement_fizz_buzz(valeur: int) -> str:
+    if not isinstance(valeur, int):
+        ...
     resultat = ""
     if valeur % 3 == 0:
         resultat += "fizz"
