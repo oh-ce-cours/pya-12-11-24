@@ -3,7 +3,7 @@ import time
 import collections
 
 
-def tail_F(file_name, size):
+def tail_F(file_name, size=5):
     line = ""
     sleep_sec = 0.1
     with open(file_name, encoding="utf8") as file:
