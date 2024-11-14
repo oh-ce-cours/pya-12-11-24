@@ -24,3 +24,7 @@ def tail_F(some_file):
                         yield line + "\n"
         except IOError:
             yield ""
+
+
+for line in tail_F("./log.txt"):
+    print(line)
