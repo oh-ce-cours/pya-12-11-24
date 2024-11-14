@@ -21,5 +21,5 @@ def g():
 print(f)
 f = deco(f)
 print(f)
-print(f("toto"))
+print(f(param="toto"))
 g()
