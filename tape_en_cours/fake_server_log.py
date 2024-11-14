@@ -3,7 +3,7 @@ from pathlib import Path
 import time
 
 with open(
-    Path(__file__)
+    Path(__file__).parent
     / ".."
     / "supports"
     / "medias"
