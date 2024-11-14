@@ -1,17 +1,11 @@
-1
-2
-3
-
-4
-5
-6
-7
-8
-9
-
-10
-
-11
-"192.168.4.163 - admin [22/Dec/2016:23:42:29 +0300] "POST /index.php/component/search/ HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
-"192.168.4.163 - - [22/Dec/2016:22:36:16 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 383 "http://192.168.4.161/" "w3af.org""
-"192.168.4.163 - admin [22/Dec/2016:23:42:14 +0300] "GET /index.php/2-uncategorised?format=feed&type=ngo0t%3C%2F-%3Engo0t%2F%2Ango0t%22ngo0tngo0t%27ngo0tngo0t%60ngo0tngo0t%20%3D HTTP/1.1" 500 1983 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:36:21 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 379 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:34 +0300] "POST /index.php HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:23 +0300] "POST / HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:35:51 +0300] "POST /index.php HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:49 +0300] "POST /index.php/component/users/?task=registration.register HTTP/1.1" 200 2760 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:53 +0300] "POST /index.php/component/users/?task=user.login HTTP/1.1" 500 1924 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:36:14 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 379 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:36:06 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 377 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:54 +0300] "POST /index.php/component/users/ HTTP/1.1" 200 2710 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:23:42:56 +0300] "GET /templates/beez_20/favicon.ico HTTP/1.1" 200 1450 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:13 +0300] "GET /index.php/2-uncategorised?format=midom%20%3D&type=atom HTTP/1.1" 500 2055 "http://192.168.4.161/" "w3af.org""
