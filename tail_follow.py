@@ -17,7 +17,7 @@ def tail_F(some_file):
                 time.sleep(sleep_sec)
 
 
-for line in tail_F("./log.txt"):
-    if not line:
+for new_line in tail_F("./log.txt"):
+    if not new_line:
         continue
-    print(line)
+    print(new_line)
