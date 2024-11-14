@@ -3,7 +3,6 @@ import time
 
 
 def tail_F(some_file):
-    first_call = True
     line = ""
     sleep_sec = 0.1
     with open(some_file, encoding="utf8") as file:
