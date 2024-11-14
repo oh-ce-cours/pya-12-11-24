@@ -1,4 +1,3 @@
-# qa: disabled
 def f(param):
     print("dans f", param)
     return param
