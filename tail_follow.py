@@ -20,4 +20,4 @@ def tail_F(some_file):
 for new_line in tail_F("./log.txt"):
     if not new_line:
         continue
-    print(new_line)
+    print(new_line.rstrip())
