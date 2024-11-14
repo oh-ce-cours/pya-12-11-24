@@ -7,9 +7,7 @@ def tail_F(file_name, size):
     line = ""
     sleep_sec = 0.1
     with open(file_name, encoding="utf8") as file:
-        yield from collections.deque(
-            file,
-        )
+        yield from collections.deque(file, size)
         while True:
             tmp = file.readline()
             if tmp is not None and tmp != "":
