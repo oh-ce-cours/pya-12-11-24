@@ -13,6 +13,7 @@ def deco(une_fonction):
     return wrapper
 
 
+@deco
 def g():
     print("dans g")
 
