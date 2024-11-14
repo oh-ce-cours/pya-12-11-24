@@ -13,5 +13,6 @@ with open(
 ) as f:
     lines = f.readlines()
 while True:
-    print(random.choice(lines))
+    with open("./log.txt", "a") as f:
+        f.write(random.choice(lines))
     time.sleep(random.random())
