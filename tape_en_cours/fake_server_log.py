@@ -7,7 +7,7 @@ with open(
     / ".."
     / "supports"
     / "medias"
-    / "fonctiondAvancees"
+    / "fonctionsAvancees"
     / "logs_apache.txt",
     encoding="utf8",
 ) as f:
