@@ -7,6 +7,7 @@ def deco(une_fonction):
     print("avant wrapper", une_fonction)
 
     def wrapper(*args, **kwargs):
+        print("dans wrapper", une_fonction)
         print("avant")
         res = une_fonction(*args, **kwargs)
         print("apres")
