@@ -10,3 +10,7 @@ Des livres cools sur la qualité logicielle en général :
 
 Un cours sur les coroutines : 
 * http://www.dabeaz.com/coroutines/ / http://www.dabeaz.com/coroutines/ 
+
+Un cours sur le GIL :
+* https://speakerdeck.com/dabeaz/embracing-the-global-interpreter-lock
+* https://www.youtube.com/watch?v=fwzPF2JLoeU
