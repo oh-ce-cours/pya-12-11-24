@@ -13,6 +13,6 @@ with open(
 ) as f:
     lines = f.readlines()
 while True:
-    with open("./log.txt", "a") as f:
+    with open("./log.txt", "a", encoding="utf8") as f:
         f.write(random.choice(lines))
     time.sleep(random.random())
