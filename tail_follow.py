@@ -27,4 +27,6 @@ def tail_F(some_file):
 
 
 for line in tail_F("./log.txt"):
+    if not line:
+        continue
     print(line)
