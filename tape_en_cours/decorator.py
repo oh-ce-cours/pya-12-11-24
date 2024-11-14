@@ -23,4 +23,4 @@ def g():
 
 f = deco(f)
 # print(f(param="toto"))
-# g()
+g()
