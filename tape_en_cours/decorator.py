@@ -4,9 +4,9 @@ def f(param):
 
 
 def deco(une_fonction):
-    def wrapper(param):
+    def wrapper(*args):
         print("avant")
-        res = une_fonction(param)
+        res = une_fonction(*args)
         print("apres")
         return res
 
