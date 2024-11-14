@@ -5,7 +5,7 @@ def tail_F(some_file):
     first_call = True
     while True:
         try:
-            with open(some_file) as input_file:
+            with open(some_file, encoding="utf8") as input_file:
                 if first_call:
                     input_file.seek(0, 2)
                     first_call = False
