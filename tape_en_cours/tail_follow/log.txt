@@ -428,3 +428,8 @@
 "192.168.4.163 - - [22/Dec/2016:22:36:06 +0300] "POST /index.php/component/search/ HTTP/1.1" 200 3094 "http://192.168.4.161/" "w3af.org""
 "192.168.4.163 - - [22/Dec/2016:22:36:24 +0300] "POST /index.php/component/users/?task=user.login HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
 "192.168.4.163 - admin [22/Dec/2016:23:42:51 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 385 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:36:16 +0300] "POST /index.php/component/search/ HTTP/1.1" 200 3094 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:28 +0300] "POST /index.php/component/users/ HTTP/1.1" 404 3990 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:36:26 +0300] "POST / HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:35:49 +0300] "POST /index.php/component/users/ HTTP/1.1" 200 238 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:54 +0300] "POST /index.php/component/users/?task=user.login HTTP/1.1" 500 1924 "http://192.168.4.161/" "w3af.org""
