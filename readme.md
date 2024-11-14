@@ -6,3 +6,7 @@ Des livres cools sur la qualité logicielle en général :
     * https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
     * https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672
     * https://www.amazon.fr/Pragmatic-Programmer-Journeyman-Master/dp/020161622X 
+
+
+Un cours sur les coroutines : 
+* http://www.dabeaz.com/coroutines/ / http://www.dabeaz.com/coroutines/ 
