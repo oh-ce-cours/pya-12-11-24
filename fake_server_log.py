@@ -3,7 +3,8 @@ from pathlib import Path
 import time
 
 with open(
-    Path(".") / ".." / "supports" / "medias" / "fonctiondAvancees" / "logs_apache.txt"
+    Path(".") / ".." / "supports" / "medias" / "fonctiondAvancees" / "logs_apache.txt",
+    encoding="utf8",
 ) as f:
     lines = f.readlines()
 while True:
