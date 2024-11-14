@@ -1,9 +1,12 @@
+# qa: disabled
 def f(param):
     print("dans f", param)
     return param
 
 
 def deco(une_fonction):
+    print("avant wrapper")
+
     def wrapper(*args, **kwargs):
         print("avant")
         res = une_fonction(*args, **kwargs)
