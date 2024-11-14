@@ -14,3 +14,4 @@ Un cours sur les coroutines :
 Un cours sur le GIL :
 * https://speakerdeck.com/dabeaz/embracing-the-global-interpreter-lock
 * https://www.youtube.com/watch?v=fwzPF2JLoeU
+
