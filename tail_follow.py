@@ -1,11 +1,15 @@
 import os
 import time
+import collections
 
 
-def tail_F(some_file):
+def tail_F(file_name, size):
     line = ""
     sleep_sec = 0.1
-    with open(some_file, encoding="utf8") as file:
+    with open(file_name, encoding="utf8") as file:
+        yield from collections.deque(
+            file,
+        )
         while True:
             tmp = file.readline()
             if tmp is not None and tmp != "":
