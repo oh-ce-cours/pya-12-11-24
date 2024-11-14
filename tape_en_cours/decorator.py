@@ -6,7 +6,7 @@ def f(param):
 def deco(une_fonction):
     def wrapper(*args, **kwargs):
         print("avant")
-        res = une_fonction(param, *args)
+        res = une_fonction(*args, **kwargs)
         print("apres")
         return res
 
