@@ -1,3 +1,6 @@
+import os
+
+
 def tail_F(some_file):
     first_call = True
     while True:
