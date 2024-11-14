@@ -1,4 +1,5 @@
-import os
+# inspiration from
+# https://stackoverflow.com/questions/12523044/how-can-i-tail-a-log-file-in-python
 import time
 import collections
 
