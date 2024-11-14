@@ -1,8 +1,21 @@
 import os
+import time
 
 
 def tail_F(some_file):
     first_call = True
+    line = ""
+    with open(some_file, encoding="utf8") as file:
+        while True:
+            tmp = file.readline()
+            if tmp is not None and tmp != "":
+                line += tmp
+                if line.endswith("\n"):
+                    yield line
+                    line = ""
+            elif sleep_sec:
+                time.sleep(sleep_sec)
+
     while True:
         try:
             with open(some_file, encoding="utf8") as input_file:
