@@ -1,7 +1,9 @@
 from multiprocessing import Pool
+import time
 
 
 def f(x):
+    time.sleep(1)
     return x * x
 
 
