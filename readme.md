@@ -19,5 +19,5 @@ Creations de paquets en python :
 * https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/
 * https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
-Sam et Max pour des ressources sur python:  
+Sam et Max pour des ressources sur python et les design patterns :  
     * https://sametmax2.com/le-pattern-strategy-version-gastronomique/index.html
