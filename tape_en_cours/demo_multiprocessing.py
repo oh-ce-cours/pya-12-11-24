@@ -8,5 +8,7 @@ def f(x):
 
 
 if __name__ == "__main__":
+    tic = time.time()
     with Pool(30) as p:
         print(p.map(f, range(60)))
+    print(f"total time: {time.time()-tic}")
