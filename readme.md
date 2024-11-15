@@ -21,3 +21,4 @@ Creations de paquets en python :
 
 Sam et Max pour des ressources sur python et les design patterns :  
     * https://sametmax2.com/le-pattern-strategy-version-gastronomique/index.html
+    * https://refactoring.guru/fr/ 
