@@ -24,7 +24,7 @@ t2 = Thread(
     target=print_time,
     args=(
         "Thread-2",
-        0.2,
+        2,
     ),
 )
 t1.start()
