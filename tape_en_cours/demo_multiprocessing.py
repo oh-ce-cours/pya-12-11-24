@@ -11,6 +11,6 @@ def f(x):
 
 if __name__ == "__main__":
     tic = time.time()
-    with Pool(30) as p:
+    with Pool(3_000_000) as p:
         print(p.map(f, range(600)))
     print(f"total time: {time.time()-tic}")
