@@ -30,6 +30,9 @@ t2 = Thread(
 t1.start()
 t2.start()
 print("Pas bloqué")
+for i in range(10):
+    print("principal", i)
+    time.sleep(1)
 t1.join()
 t2.join()
 print("Fini")
