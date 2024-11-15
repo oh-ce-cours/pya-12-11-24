@@ -1,2 +1,8 @@
 "192.168.4.163 - admin [22/Dec/2016:23:42:46 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 415 "http://192.168.4.161/" "w3af.org""
 "192.168.4.163 - admin [22/Dec/2016:23:42:08 +0300] "POST /index.php/component/users/ HTTP/1.1" 200 2747 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:36:32 +0300] "GET /DVWA/dvwa/images/lock.png HTTP/1.1" 200 1309 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:35:54 +0300] "POST /index.php/component/users/?task=registration.register HTTP/1.1" 200 237 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:39 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 418 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:37 +0300] "POST /index.php/component/search/ HTTP/1.1" 303 383 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - admin [22/Dec/2016:23:42:54 +0300] "POST /index.php/component/search/ HTTP/1.1" 500 1924 "http://192.168.4.161/" "w3af.org""
+"192.168.4.163 - - [22/Dec/2016:22:35:43 +0300] "POST /index.php HTTP/1.1" 303 287 "http://192.168.4.161/" "w3af.org""
