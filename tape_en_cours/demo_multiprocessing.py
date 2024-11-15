@@ -8,5 +8,5 @@ def f(x):
 
 
 if __name__ == "__main__":
-    with Pool(1) as p:
+    with Pool(30) as p:
         print(p.map(f, range(60)))
