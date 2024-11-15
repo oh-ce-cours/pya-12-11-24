@@ -15,3 +15,6 @@ Un cours sur le GIL :
 * https://speakerdeck.com/dabeaz/embracing-the-global-interpreter-lock
 * https://www.youtube.com/watch?v=fwzPF2JLoeU
 
+Creations de paquets en python :
+* https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/
+* https://packaging.python.org/en/latest/tutorials/packaging-projects/
