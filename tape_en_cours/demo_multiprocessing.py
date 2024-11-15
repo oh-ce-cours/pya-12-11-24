@@ -1,9 +1,11 @@
 from multiprocessing import Pool
 import time
+import random
 
 
 def f(x):
-    time.sleep(1)
+    time.sleep(random.random())
+    print(x)
     return x * x
 
 
