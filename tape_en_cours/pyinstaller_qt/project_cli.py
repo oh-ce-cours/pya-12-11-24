@@ -7,6 +7,7 @@ TO_REPLACE_K1 = "xk1x"
 TO_REPLACE_K2 = "xk2x"
 
 # print("dans j2", __name__)
+df = pandas.DataFrame()
 
 k1s = [1e1, 2e2, 3e3, 3.4]
 k2s = [80_000, 900_000, 1_000_000]
