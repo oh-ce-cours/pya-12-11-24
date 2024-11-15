@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import itertools
+import pandas
 
 TO_REPLACE_K1 = "xk1x"
 TO_REPLACE_K2 = "xk2x"
